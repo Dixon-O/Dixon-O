@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile Preview — Dixon Osure (AI Systems)</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text-main: #e6edf3;
+      --text-muted: #848d97;
+      --gold: #d4b067;
+      --gold-bright: #fae29c;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 960px;
+      width: 100%;
+    }
+
+    .preview-header {
+      background: #11141a;
+      border: 1px solid #232832;
+      border-radius: 6px;
+      padding: 14px 20px;
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .preview-badge {
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid rgba(212, 176, 103, 0.4);
+      padding: 3px 10px;
+      border-radius: 20px;
+    }
+
+    .profile-readme-box {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background-color: #0d1117;
+      overflow: hidden;
+    }
+
+    .readme-header {
+      padding: 8px 16px;
+      background-color: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .readme-header span.file-name {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    .readme-body {
+      padding: 32px 40px;
+    }
+
+    .readme-body img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .quote {
+      text-align: center;
+      font-style: italic;
+      color: #c9c0aa;
+      font-family: 'Cinzel', 'Palatino Linotype', 'Georgia', serif;
+      font-size: 14.5px;
+      margin: 16px 0;
+      letter-spacing: 0.03em;
+    }
+
+    h3 {
+      font-family: 'Cinzel', 'Palatino Linotype', 'Georgia', serif;
+      color: var(--gold-bright);
+      font-size: 18px;
+      margin: 28px 0 14px 0;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #232832;
+      letter-spacing: 0.06em;
+    }
+
+    h4 {
+      font-size: 15px;
+      margin: 20px 0 6px 0;
+      color: var(--text-main);
+    }
+
+    h4 a {
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    h4 a:hover {
+      text-decoration: underline;
+    }
+
+    blockquote {
+      border-left: 2px solid var(--gold);
+      padding-left: 14px;
+      margin: 6px 0 10px 0;
+      color: #9ea4b0;
+      font-style: italic;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 13.5px;
+    }
+
+    th, td {
+      border: 1px solid #2d333b;
+      padding: 10px 14px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #161b22;
+      color: var(--gold);
+      font-family: 'Cinzel', 'Palatino Linotype', 'Georgia', serif;
+      letter-spacing: 0.05em;
+    }
+
+    td strong {
+      color: #e6edf3;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+      margin: 6px 0 14px 0;
+      color: #c9d1d9;
+    }
+
+    li {
+      margin-bottom: 4px;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background: #232832;
+      margin: 28px 0;
+    }
+
+    .footer-quote {
+      text-align: center;
+      margin-top: 24px;
+      color: #8c8574;
+      font-family: 'Cinzel', 'Palatino Linotype', 'Georgia', serif;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="preview-header">
+      <div>
+        <strong>Dixon-O / README.md</strong>
+        <span style="color: var(--text-muted); margin-left: 10px; font-size: 12px;">AI-Focused Profile Representation</span>
+      </div>
+      <div class="preview-badge">Tarnished AI Sovereign</div>
+    </div>
+
+    <div class="profile-readme-box">
+      <div class="readme-header">
+        <svg height="16" viewBox="0 0 16 16" width="16" fill="currentColor">
+          <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .07.027.133.073.177l.004.004.173.069h12.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25ZM3.75 3a.75.75 0 0 1 .75.75v8.5a.75.75 0 0 1-1.5 0v-8.5A.75.75 0 0 1 3.75 3Zm3.5 0a.75.75 0 0 1 .75.75v8.5a.75.75 0 0 1-1.5 0v-8.5A.75.75 0 0 1 7.25 3Zm3.5 0a.75.75 0 0 1 .75.75v8.5a.75.75 0 0 1-1.5 0v-8.5a.75.75 0 0 1 .75-.75Z"/>
+        </svg>
+        <span class="file-name">Dixon-O / README.md</span>
+      </div>
+
+      <div class="readme-body">
+        <div style="text-align: center;">
+          <img src="./assets/banner.svg" alt="Dixon Osure Banner" style="width: 100%; border-radius: 4px;" />
+          <p class="quote">“Foul seeker... emboldened by the flame of ambition. Tread the lands where artificial intellect is forged not in fleeting incantations, but in resilient, autonomous systems.”</p>
+          <img src="./assets/divider.svg" alt="Runic Divider" style="width: 60%; margin: 12px auto;" />
+        </div>
+
+        <h3>◈ The Codex</h3>
+        <p>
+          I am <strong>Dixon Osure</strong>, a software craftsman and AI systems engineer forging autonomous agents, intelligent diagnostic engines, and resilient distributed platforms.
+        </p>
+        <p style="margin-top: 8px;">
+          Where many treat artificial intelligence as mere novelty, I treat it as an arcane discipline—engineering deterministic harnesses around probabilistic models. My focus lies in constructing agentic tool-calling systems, neural voice-preservation engines, and automated diagnostic oracles that parse high-entropy telemetry into actionable truth.
+        </p>
+
+        <hr/>
+
+        <h3>◈ Arcane Disciplines &amp; Armaments</h3>
+        <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 12px;">A catalog of the models, agent architectures, and forged armaments wielded across my journeys:</p>
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 32%;">Realm</th>
+              <th>Proficiencies &amp; Instruments</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Agentic Systems &amp; Autonomy</strong></td>
+              <td>Autonomous Tool-Calling · Agent Harnesses · Multi-Agent Orchestration · Memory &amp; Context Engineering · Telephony Sessions</td>
+            </tr>
+            <tr>
+              <td><strong>Model Foundries &amp; Intelligence</strong></td>
+              <td>watsonx.ai · IBM Granite · Anthropic Claude SDK · Gemini API · DeepSeek / OpenAI · Local Inference (Ollama)</td>
+            </tr>
+            <tr>
+              <td><strong>Languages of the Forge</strong></td>
+              <td>Python · Go · TypeScript · JavaScript · SQL</td>
+            </tr>
+            <tr>
+              <td><strong>Infrastructure &amp; Runtimes</strong></td>
+              <td>Linux Kernel Environments · Docker · CI/CD Telemetry · Node.js · Fastify / Next.js · Bitcoin Lightning Network</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div style="text-align: center; margin: 24px 0;">
+          <img src="./assets/divider.svg" alt="Runic Divider" style="width: 60%; margin: 0 auto;" />
+        </div>
+
+        <h3>◈ Remembrances of Conquest — AI-Native Constructs</h3>
+        
+        <h4><a href="https://github.com/Dixon-O/Stilliu">› Stilliu</a></h4>
+        <blockquote>An AI creative partner engineered to measure generic drift and preserve authentic human timbre.</blockquote>
+        <ul>
+          <li><strong>Arcane Core:</strong> Python · IBM Bob · IBM Granite · watsonx.ai</li>
+          <li>Evaluates drafts against semantic homogeneity metrics; steers generative completions to preserve the creator's idiosyncratic cadence and voice rather than succumbing to synthetic blandness.</li>
+        </ul>
+
+        <h4><a href="https://github.com/Dixon-O/CICD-Debug-Assistant">› CICD-Debug-Assistant</a></h4>
+        <blockquote>A Go-powered automated diagnostician parsing build logs and synthesizing targeted remedies.</blockquote>
+        <ul>
+          <li><strong>Arcane Core:</strong> Go · Telemetry Ingestion · Pattern Recognition · Automated Root-Cause Synthesis</li>
+          <li>Ingests high-entropy CI/CD execution traces, correlates cryptic compiler and test failures against known failure modes, and surfaces instant root-cause diagnostics—reducing 30-minute investigations to 30-second remediations.</li>
+        </ul>
+
+        <h4><a href="https://github.com/Dixon-O/which-bid">› which-bid</a></h4>
+        <blockquote>An intelligent procurement oracle for algorithmic commercial evaluation and quotation analysis.</blockquote>
+        <ul>
+          <li><strong>Arcane Core:</strong> TypeScript · Multimodal Document Parsing · Algorithmic Variance Scoring</li>
+          <li>Automates supplier bid normalization and multi-factor tender comparison for SMBs, transforming unstructured quotations into structured, data-driven procurement decisions.</li>
+        </ul>
+
+        <h4><a href="https://github.com/Dixon-O/hermes-ussd-plugin">› hermes-agent &amp; hermes-ussd-plugin</a></h4>
+        <blockquote>An adaptive autonomous agent extended into low-bandwidth telecom rails.</blockquote>
+        <ul>
+          <li><strong>Arcane Core:</strong> Python · Agentic Tool Execution · USSD Telephony Protocols</li>
+          <li>Bridges autonomous agent capabilities to offline mobile environments, allowing session-based interactive workflows over cellular telecom networks without requiring internet connectivity.</li>
+        </ul>
+
+        <h4><a href="https://github.com/Dixon-O/openclaude">› openclaude</a></h4>
+        <blockquote>A universal multi-model execution harness for terminal-based developer agents.</blockquote>
+        <ul>
+          <li><strong>Arcane Core:</strong> TypeScript · LLM Tool-Calling Shims · Model Routing (Gemini, DeepSeek, Ollama, OpenAI)</li>
+          <li>Decouples high-agency developer CLI workflows from proprietary model vendor lock-in, enabling multi-agent execution across local and cloud inference backends.</li>
+        </ul>
+
+        <h4><a href="https://github.com/Dixon-O/trailpay">› trailpay</a></h4>
+        <blockquote>Programmable, milestone-released settlement rails for autonomous actors.</blockquote>
+        <ul>
+          <li><strong>Arcane Core:</strong> TypeScript · Bitcoin Lightning Network (LND) · Micro-Settlement Primitives</li>
+          <li>Cryptographic payment execution layer built for deterministic, milestone-gated compensation—providing the settlement substrate needed for autonomous agents and decentralized workflows.</li>
+        </ul>
+
+        <hr/>
+
+        <h3>◈ Sites of Grace</h3>
+        <p>Where communication channels rest and collaborations may be summoned:</p>
+        <ul style="margin-top: 8px;">
+          <li><strong>E-Mail:</strong> <a href="mailto:jamesdickens015@gmail.com" style="color: var(--gold);">jamesdickens015@gmail.com</a></li>
+          <li><strong>Nexus:</strong> Active across listed repositories, issues, and pull requests</li>
+          <li><strong>Summons:</strong> Open to high-agency engineering roles in <strong>Autonomous Agents</strong>, <strong>Applied AI Systems</strong>, and <strong>Intelligent Infrastructure</strong></li>
+        </ul>
+
+        <div class="footer-quote">
+          <img src="./assets/divider.svg" alt="Runic Divider" style="width: 35%; margin: 16px auto;" />
+          <p>“Let strength be granted so the world might be mended.”</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
